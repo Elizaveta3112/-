@@ -3,11 +3,10 @@ from flask import Flask, render_template
 server = Flask(__name__)
 
 messages = [
-{'username':'vikvas','text':'Привет'},
-{'username':'egvas','text':'Здравствуйте!'},
-{'username':'julia_a','text':'Добрый день'}
+{'username':'lizabal','text':'Пиривт'},
+{'username':'liza','text':'Здравствуйте!'},
+{'username':'elizavea','text':'Добрый вечер'},
 ]
-
 
 
 @server.route('/')
